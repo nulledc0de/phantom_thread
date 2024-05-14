@@ -1,6 +1,6 @@
 # phantom_thread
 
-phantom_thread is a POC kernel driver designed for manual mapping. It spoofs the thread's start address and uses `KeEnterGuardedRegion()` to avoid asynchronous procedure calls (APCs). This subverts bad actors that could be looking to find the spoofed system thread. This was a driver i wrote when i was bored for fun not for bypassing any specific anticheats/services.
+phantom_thread is a POC kernel driver designed for manual mapping. It spoofs the thread's start address and uses `KeEnterGuardedRegion()` to avoid asynchronous procedure calls (APCs). This subverts bad actors that could be looking to find the spoofed system thread. this was a driver i wrote when i was bored for fun not for bypassing any specific anticheats/services.
 
 ## features
 
